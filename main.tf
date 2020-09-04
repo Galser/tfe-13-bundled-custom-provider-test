@@ -14,9 +14,9 @@ provider azurerm {
 features {}
 }
 
-provider corepipeline {
-hostname = "test1.something.mtcc.com"
-}
+#provider corepipeline {
+#hostname = "test1.something.mtcc.com"
+#}
 
 resource "null_resource" "example1" {
 provisioner "local-exec" {
@@ -26,7 +26,7 @@ command = "sleep 500000"
 
 resource "null_resource" "example2" {
 provisioner "local-exec" {
-command = "ls"
+command = "ls -la"
 }
 }
 
