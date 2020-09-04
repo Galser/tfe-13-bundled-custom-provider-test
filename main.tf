@@ -5,7 +5,7 @@ version = "=1.39.0"
 source = "hashicorp/azurerm"
 }
 hashicups = {
-version = "=0.2.0"
+version = "=0.2"
 source = "mtc.com/edu/hashicups"
 }
 }
