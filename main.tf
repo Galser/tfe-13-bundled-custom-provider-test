@@ -4,9 +4,9 @@ azurerm = {
 version = "=1.39.0"
 source = "hashicorp/azurerm"
 }
-corepipeline = {
-version = "=1.0.0"
-source = "mtc.com/api/corepipeline"
+hashicups = {
+version = "=0.2.0"
+source = "mtc.com/edu/hashicups"
 }
 }
 }
